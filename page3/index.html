@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(backimage7.jpg);
+        background-size: cover;
+        
+
+    }
+    #main{
+        height: 480px;
+        width: 770px;
+        background-color:rgba(255, 255,255,0.2);
+        backdrop-filter:blur(10px);
+        position: absolute;
+        left: 25%;
+        top:20%;
+        border-radius: 20px;
+    }
+    .pic{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .odd{
+       
+        background-color:rgba(255,255,255,0.3);
+    }
+    .even{
+        
+        background-color: rgba(255,255,255,0.6);
+    }
+    th,td{
+        padding: 5px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    table{
+      border-collapse: collapse;
+      margin-left: 30px;
+      
+      margin-top: 10px;
+      border:0px;
+      border-radius: 10px;
+      background-color: rgba(255,255,255,0.3);
+      
+    }
+    #heading{
+        height: 35px;
+        background-color:rgba(255,255,255,0.3);
+        padding-left: 10px ;
+        padding-top: 10px;
+        border-top-left-radius:20px ;
+        border-top-right-radius:20px ;
+    }
+    .state{
+        height: 20px;
+        width:75px;
+        text-align: center;
+        border-radius: 15px;
+    }
+   
+  
+    
+</style>
+<body>
+    <div id="main">
+        <div id="heading"><b>Customer's Orders</b></div>
+    <table>
+        
+        <tr>
+            <th>id</th>
+            <th>Customer</th>
+            <th>Location</th>
+            <th>Order Date</th>
+            <th>States</th>
+            <th>Amount</th>
+        </tr>
+        <tr class="even">
+            <td>1</td>
+            <td><div class=pic style="background-image:url(neha\ \(2\).jpg);"></div>Neha</td>
+            <td>seoul</td>
+            <td>17 Dec,2022</td>
+            <td><div class="state" style="background-color: rgb(117, 216, 117);color: rgb(71, 138, 71);">Delivered</div></td>
+            <td>$128.90</td>
+        </tr>
+        <tr class="odd">
+            <td>2</td>
+            <td ><div class=pic style="background-image:url(sam.jpg);"></div>Sam</td>
+            <td>Paris</td>
+            <td>27 Aug,2023</td>
+            <td><div class="state" style="background-color: rgb(209, 108, 108);color: rgb(127, 50, 50);">Cancelled</div></td>
+            <td>$5350.90</td>
+        </tr>
+        <tr class="even">
+            <td>3</td>
+            <td><div class=pic style="background-image:url(najju.jpeg);"></div>Najju</td>
+            <td>Tokyo</td>
+            <td>14 Mar,2023</td>
+            <td><div class="state" style="background-color: rgb(107, 184, 214);color:rgb(30, 103, 132)">Shipped</div></td>
+            <td>$210.90</td>
+        </tr>
+        <tr class="odd">
+            <td>4</td>
+            <td><div class=pic style="background-image:url(aashiq.JPG);"></div>Aashiq</td>
+            <td>New Delhi</td>
+            <td>25 May,2023</td>
+            <td><div class="state" style="background-color: rgb(117, 216, 117);color: rgb(71, 138, 71);">Delivery</div></td>
+            <td>$149.90</td>
+        </tr>
+        <tr class="even">
+            <td>5</td>
+            <td><div class=pic style="background-image:url(max.jpg);"></div>Max</td>
+            <td>Hydrabad</td>
+            <td>17 Dec,2023</td>
+            <td><div class="state" style="background-color: rgb(204, 204, 59);color: rgb(93, 93, 29);">Pending</div></td>
+            <td>$399.90</td>
+        </tr>
+        <tr class="odd">
+            <td>6</td>
+            <td><div class=pic style="background-image:url(vijay.jpg);"></div>Vijay</td>
+            <td>London</td>
+            <td>9 May,2023</td>
+            <td><div class="state" style="background-color: rgb(209, 108, 108);color: rgb(127, 50, 50);">Cancelled</div></td>
+            <td>$399.90</td>
+        </tr>
+        <tr class="even">
+            <td>7</td>
+            <td><div class=pic style="background-image:url(dhanush.jpg);"></div>Dhanush</td>
+            <td>Tokyo</td>
+            <td>17 Dec,2022</td>
+            <td><div class="state" style="background-color: rgb(107, 184, 214);color:rgb(30, 103, 132)">Shipped</div></td>
+            <td>$128.90</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><div class=pic style="background-image:url(max.jpg);"></div>Leo</td>
+            <td>Hydrabad</td>
+            <td>17 Dec,2023</td>
+            <td><div class="state" style="background-color: rgb(204, 204, 59);color: rgb(93, 93, 29);">Pending</div></td>
+            <td>$399.90</td>
+        </tr>
+    </table>
+    
+</div>
+</body>
+</html>
