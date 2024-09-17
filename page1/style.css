@@ -1,0 +1,72 @@
+      #main{
+            height: 400px;
+            width: 800px;
+            position: absolute;
+            left:350px;
+            top:150px;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: white;
+            
+        }
+        
+        #box1{
+            height: 200px;
+            width: 200px;
+            background-image: url(food1.webp);
+            background-size: cover;
+        }
+        #box2{
+            height: 200px;
+            width: 200px;
+            
+        }
+        #box3{
+            height: 200px;
+            width: 200px;
+            background-image: url(food2.webp);
+            background-size: cover;
+        }
+        #box4{
+            height: 200px;
+            width: 200px;
+           
+        }
+        #box5{
+            height: 200px;
+            width: 200px;
+           
+            
+        }
+        #box6{
+            height: 200px;
+            width: 200px;
+            background-image: url(food3.jpeg);
+            background-size: cover;
+        }
+        #box7{
+            height: 200px;
+            width: 200px;
+           
+        }
+        #box8{
+            height: 200px;
+            width: 200px;
+            background-image: url(food4.webp);
+            background-size: cover;
+        }
+        body{
+            background-image: url(main3.jpg);
+            background-size: cover;
+        }
+        h3{
+            text-align: center;
+            
+        }
+        
+        
+        p{
+            text-align: center;
+            padding:10px;
+           
+        }
